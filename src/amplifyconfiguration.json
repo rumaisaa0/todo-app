@@ -1,0 +1,38 @@
+{
+  "aws_project_region": "eu-north-1",
+  "aws_cognito_identity_pool_id": "eu-north-1:815c0407-f959-4e62-9e5f-c9b891339c04",
+  "aws_cognito_region": "eu-north-1",
+  "aws_user_pools_id": "eu-north-1_xw35EluE3",
+  "aws_user_pools_web_client_id": "27ocfbbdalte1g1ak5tqok5q94",
+  "oauth": {},
+  "aws_cognito_username_attributes": [],
+  "aws_cognito_social_providers": [],
+  "aws_cognito_signup_attributes": [
+    "EMAIL"
+  ],
+  "aws_cognito_mfa_configuration": "OFF",
+  "aws_cognito_mfa_types": [
+    "SMS"
+  ],
+  "aws_cognito_password_protection_settings": {
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": []
+  },
+  "aws_cognito_verification_mechanisms": [
+    "EMAIL"
+  ],
+  "aws_dynamodb_all_tables_region": "eu-north-1",
+  "aws_dynamodb_table_schemas": [
+    {
+      "tableName": "todos-dev",
+      "region": "eu-north-1"
+    }
+  ],
+  "aws_cloud_logic_custom": [
+    {
+      "name": "expressapi",
+      "endpoint": "https://6vodawmeac.execute-api.eu-north-1.amazonaws.com/dev",
+      "region": "eu-north-1"
+    }
+  ]
+}
