@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-todoapp-dev-89802-authRole",
+      "UnauthRoleArn": "arn:aws:iam::225723477233:role/amplify-todoapp-dev-89802-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::225723477233:role/amplify-todoapp-dev-89802-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-todoapp-dev-89802-deployment",
+      "UnauthRoleName": "amplify-todoapp-dev-89802-unauthRole",
+      "StackName": "amplify-todoapp-dev-89802",
+      "StackId": "arn:aws:cloudformation:eu-north-1:225723477233:stack/amplify-todoapp-dev-89802/0a8bec60-1d99-11f1-9bd9-0ade1587f279",
+      "AmplifyAppId": "d9xm6s3sxdpb5"
+    },
+    "categories": {
+      "auth": {
+        "todoappd4cd5533": {}
+      },
+      "function": {
+        "expressgraphql": {
+          "deploymentBucketName": "amplify-todoapp-dev-89802-deployment",
+          "s3Key": "amplify-builds/expressgraphql-5254462f646f4462765a-build.zip"
+        }
+      },
+      "storage": {
+        "todotable": {}
+      },
+      "api": {
+        "expressapi": {}
+      }
+    }
+  }
+}

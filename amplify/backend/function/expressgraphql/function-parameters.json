@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "auth": {
+      "todoappd4cd5533": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "storage": {
+      "todotable": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
